@@ -1,0 +1,24 @@
+{
+  "name": "flash-deal-cart-api",
+  "version": "1.0.0",
+  "description": "Flash deal cart reservation and checkout API with Redis and MongoDB",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.5.0",
+    "joi": "^17.13.3",
+    "ioredis": "^5.4.1",
+    "mongoose": "^8.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
